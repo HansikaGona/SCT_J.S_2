@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e2f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+#display {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+#laps {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#laps li {
+  margin: 5px 0;
+}
